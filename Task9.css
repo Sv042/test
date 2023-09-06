@@ -1,0 +1,24 @@
+.custom-table {
+    border-collapse: collapse; /* Remove default cell spacing */
+    width: 600px; /* Set table width as needed */
+}
+
+.custom-table th, .custom-table td {
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center-align content */
+}
+
+/* Style the first row (thead) with dark green background */
+.custom-table thead tr {
+    background-color: #4CAF50;
+    color: white; /* Text color for column headings */
+}
+
+/* Style alternate rows with light and dark grey */
+.custom-table tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}

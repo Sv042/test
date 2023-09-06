@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-left: 200px; /* Adjust this value to leave space for the side navigation */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0; /* Remove margin for the h1 element */
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF; /* Set the background color of the side navigation to white */
+    padding-top: 20px;
+}
+
+.sidenav p {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+.sidenav a {
+    width: 100%; /* Make buttons full width */
+    height: 40px;
+    display: block;
+    transition: background-color 0.3s;
+    text-align: center;
+    line-height: 40px;
+    color: white; /* Text color */
+    text-decoration: none;
+    border: 2px solid transparent; /* Transparent border for all buttons */
+    border-radius: 0; /* Remove border-radius to make buttons rectangular */
+    margin-bottom: 10px; /* Collapse the margin to make it white */
+}
+
+.green {
+    background-color: #4CAF50;
+    border-color: transparent; /* Transparent border for the green button */
+}
+
+.blue {
+    background-color: #0074D9;
+    border-color: transparent; /* Transparent border for the blue button */
+}
+
+.red {
+    background-color: #FF4136;
+    border-color: transparent; /* Transparent border for the red button */
+}
+
+.darkgrey {
+    background-color: #555;
+    border-color: transparent; /* Transparent border for the dark grey button */
+}
+
+.sidenav a:hover {
+    background-color: #444; /* Hover background color */
+}

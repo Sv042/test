@@ -1,0 +1,19 @@
+.table {
+    width: 300px;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #000;
+}
+
+.cell {
+    border-radius: 50%;
+    width: 80px; /* Adjust the width to create circular content */
+    height: 80px; /* Adjust the height to create circular content */
+    background-color: #ccc; /* Background color of circular content */
+}

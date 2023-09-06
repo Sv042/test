@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: lightblue; /* Light blue background color */
+    width: 200px; /* Set the width of the vertical bar */
+    border: 1px solid black; /* Black border */
+}
+
+nav ul {
+    flex-direction: column; /* Display list items vertically */
+}
+
+nav li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+nav a {
+    display: block; /* Make the entire list item clickable */
+    text-decoration: none; /* Remove underlines from links */
+    color: black; /* Default text color */
+    padding: 5px; /* Add padding for better clickability */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change text color to grey when hovering over the link */
+nav a:hover {
+    color: grey;
+}
+
+/* Change text color to grey when the link is active or selected */
+nav a:active,
+nav a:focus {
+  color: grey;
+}
